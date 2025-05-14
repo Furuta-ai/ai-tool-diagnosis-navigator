@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIツール診断ナビ｜あなたにぴったりのAI副業ツールがわかる！</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AIツール診断ナビ｜あなたにぴったりのAI副業ツールがわかる！</h1>
+            <p>4つの質問に答えるだけで、あなたに最適なAIツールと副業アイデアがわかります。</p>
+        </header>
+
+        <main>
+            <div id="landing-container" class="active">
+                <div class="start-button-container">
+                    <button id="start-btn">診断スタート</button>
+                </div>
+            </div>
+
+            <div id="quiz-container">
+                <div id="progress-bar">
+                    <div id="progress"></div>
+                </div>
+                <div id="question-container">
+                    <!-- Questions will be inserted here by JavaScript -->
+                </div>
+                <div id="controls">
+                    <button id="prev-btn" disabled>前へ</button>
+                    <button id="next-btn">次へ</button>
+                </div>
+            </div>
+
+            <div id="results-container">
+                <h2>あなたにおすすめのAIツール</h2>
+                <div id="recommendations">
+                    <!-- Recommendations will be inserted here by JavaScript -->
+                </div>
+                <div class="share-section">
+                    <h3>結果をシェアする</h3>
+                    <div class="share-buttons">
+                        <a href="#" id="twitter-share" class="share-btn twitter" target="_blank">
+                            <i class="fab fa-x-twitter"></i> Xでシェア
+                        </a>
+                    </div>
+                </div>
+                <div class="learn-more">
+                    <h3>もっと詳しく知りたい</h3>
+                    <a href="https://www.udemy.com/user/chi-tian-guo-nai/" id="udemy-link" class="learn-btn" target="_blank">
+                        ふるーたさんのUdemy講座を見る
+                    </a>
+                    <a href="https://note.com/furutanofukugyo" class="learn-btn" target="_blank">
+                        副業のヒントをもっと見る
+                    </a>
+                </div>
+                <button id="restart-btn">もう一度診断する</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 AIツール診断ナビ</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
